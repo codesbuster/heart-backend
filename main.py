@@ -7,10 +7,11 @@ from typing import Dict, List
 
 app = FastAPI()
 
+#new
 # CORS settings
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173"],
+    allow_origins=["https://heartdiseaseml.vercel.app"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -149,6 +150,3 @@ async def get_model_details():
 @app.get("/")
 def home():
     return {"message": "Heart Disease Prediction API is running!"}
-
-
-
