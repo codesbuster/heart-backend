@@ -10,13 +10,5 @@
       "src": "/(.*)",
       "dest": "main.py"
     }
-  ],
-  "includeFiles": [
-    "models/scaler.pkl",
-    "models/logistic_regression_model.pkl",
-    "models/random_forest_model.pkl",
-    "models/svm_model.pkl",
-    "models/knn_model.pkl",
-    "models/model_metrics.pkl"
   ]
 }
